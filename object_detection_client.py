@@ -5,7 +5,7 @@ from PIL import Image
 import os
 import io
 
-st.title("🕵️‍♀️ Object Detection")
+st.title("🕵️‍♀️ My Object Detection")
 endpoint =os.getenv("MODEL_ENDPOINT", default = "http://0.0.0.0:8000")
 endpoint_bearer = os.getenv("MODEL_ENDPOINT_BEARER")
 headers = {"accept": "application/json",
